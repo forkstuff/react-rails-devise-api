@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rack-cors', :require => 'rack/cors'
+gem 'pry'
 gem 'foreman', "~> 0.82.0"
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
