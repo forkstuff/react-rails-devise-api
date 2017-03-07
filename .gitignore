@@ -22,3 +22,6 @@
 
 # Ignore React app
 /client
+
+# Ignore Procfile
+Procfile
