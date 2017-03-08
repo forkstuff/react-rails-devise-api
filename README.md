@@ -1,24 +1,20 @@
-# README
+Play with a live version of this app here: https://react-frontend-app.herokuapp.com 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To enjoy this demo locally, do this stuff:
 
-Things you may want to cover:
+- Open terminal
+- cd Desktop
+- git clone git@github.com:jessenovotny/react-rails-devise-api.git 
+- cd react-rails-devise-api 
+- bundle install 
+- rake db:create db:migrate
+- touch Procfile
+- add the following lines to Procfile
+  web: cd react-rails-devise-client && npm start
+  api: bundle exec rails s -p 3001
+- git clone git@github.com:jessenovotny/react-rails-devise-client.git
+- cd react-rails-devise-client
+- npm install
+- cd ..
+- rake start
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
